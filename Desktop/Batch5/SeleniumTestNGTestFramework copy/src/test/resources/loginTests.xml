@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Tests">
+    <test name="login">
+
+        <groups>
+
+            <run>
+
+                <include name="login"></include>
+
+            </run>
+
+        </groups>
+        <classes>
+            <class name="tests.exampleWebSites.AmazonTest"></class>
+            <class name="tests.exampleWebSites.EtsyTest"></class>
+            <class name="tests.exampleWebSites.GoogleTest"></class>
+
+        </classes>
+
+    </test>
+</suite>
