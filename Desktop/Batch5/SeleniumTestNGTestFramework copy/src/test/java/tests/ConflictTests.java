@@ -19,7 +19,7 @@ public class ConflictTests {
 
     @Test
     public void test2 () {
-        String message = "Welcome";
-        Assert.assertTrue(message.contains("Welcome"));
+        String message = "Welcome to USA";
+        Assert.assertTrue(message.toLowerCase().contains("Welcome"));
     }
 }
