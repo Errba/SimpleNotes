@@ -10,8 +10,9 @@ public class ConflictTests {
     public void test1 () {
         int a = 5;
         int b = 10;
+        int sum = a + b;
 
-        System.out.println("SUM : " + ( a + b ));
+        System.out.println("SUM : " + sum);
 
     }
 
